@@ -1,0 +1,205 @@
+.display-1 {
+	text-align: center;
+	padding: 0.75em; 
+	font-size: 200%;
+}
+.display-2 {
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 1.5em;
+}
+.display-3 {
+	margin: 0 2em 1.5em 2em;
+	font-size: 150%;
+	text-align: justify;
+}
+.display-4 {
+	margin: 1em; 
+	color: white; 
+	font-size: 125%
+}
+.carousel-inner img {
+	width: 100%; 
+	height: 650px; 
+	object-fit: cover;
+}
+.carousel-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 20;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 4px black;
+}
+#heading {
+	font-size: 450%;
+}
+#headingcaption {
+	padding: 0.5em;
+}
+.textsection {
+	background-color: #e3e3e3;
+	padding: 1em;
+}
+.format .row, .imageformat .row {
+	margin: 0.5em;
+	padding: 0.5em;
+}
+.format .col-lg, .format .col-sm {
+	margin: 1em;
+	padding: 2em;
+	background-color: #e3e3e3;
+}
+.imageformat .col-lg {
+	margin: 1em;
+	padding: 1em;
+	background-color: #e3e3e3;
+}
+.col-lg img, .col-sm img, .mySlides img {
+	width: 100%;
+}
+.format figure, .imageformat figure {
+	object-fit: cover;
+	text-align: center;
+	justify-content: center;   
+	transition: all 0.25s ease-out 0.25s;
+}
+.imageformat figcaption {
+	margin-top: 0.75em;
+	font-weight: bold;
+	font-size: 1em;
+}
+.format figcaption {
+	margin-bottom: 1em;
+	font-weight: bold;
+	font-size: 120%;
+}
+.imageformat figure:hover {
+	background-color: #007bff;
+	color: white;
+	box-shadow: 5px 5px 30px -4px;
+	transform: scale(1.05);
+	transition: all .25s ease-in 0.25s;
+}
+.format figure:hover {
+	background-color: #007bff;
+	color: white;
+	box-shadow: 5px 5px 30px -4px;
+	transition: all .25s ease-in 0.25s;
+}
+#tabledesktop img {/*266 150*/
+	width: 266px;
+	height: 150px;
+	object-fit: cover;
+}
+#tabledesktop .row {
+	margin-left: 1em;
+}
+#tablemobile {
+	display: none;
+}
+#select {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+.format .row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.sliderow img {
+	float: left;
+	width: 12.5%;
+	object-fit: cover;
+}
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 25px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: black;
+}
+.modal-content {
+	position: relative;
+	background-color: black;
+	margin: auto;
+	width: 55%;
+}
+.close {
+	color: white;
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	font-size: 35px;
+	font-weight: bold;
+}
+.close:hover, .close:focus {
+	color: #999;
+	text-decoration: none;
+	cursor: pointer;
+}
+.mySlides {
+ 	display: none;
+}
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+}
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+.mySlides div {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+.caption-container {
+	text-align: center;
+	background-color: black;
+	padding: 2px 16px;
+	color: white;
+}
+.demo {
+ 	opacity: 0.6;
+}
+.active, .demo:hover {
+ 	opacity: 1;
+}
+img .hover-shadow {
+	transition: 0.3s;
+}
+.hover-shadow:hover {
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+footer {
+	background-color: #007bff;
+	color: white;
+	text-align: center;
+	padding: 1em;
+}
+#footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
